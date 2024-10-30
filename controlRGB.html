@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RGB LED Control</title>
+</head>
+<body>
+    <h1>Set RGB LED Color</h1>
+    <form method="post" action="updateRGB.php">
+        <label for="red">Red (0-255): </label>
+        <input type="range" id="red" name="redValue" min="0" max="255" value="0" oninput="this.nextElementSibling.value = this.value">
+        <output>0</output>
+        <br><br>
+
+        <label for="green">Green (0-255): </label>
+        <input type="range" id="green" name="greenValue" min="0" max="255" value="0" oninput="this.nextElementSibling.value = this.value">
+        <output>0</output>
+        <br><br>
+
+        <label for="blue">Blue (0-255): </label>
+        <input type="range" id="blue" name="blueValue" min="0" max="255" value="0" oninput="this.nextElementSibling.value = this.value">
+        <output>0</output>
+        <br><br>
+
+        <input type="submit" value="Set Color">
+    </form>
+</body>
+</html>
