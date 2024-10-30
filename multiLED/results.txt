@@ -1,0 +1,16 @@
+{
+    "Node1": {
+        "LED1": {
+            "status": "on",
+            "red": 255,
+            "green": 16,
+            "blue": 255
+        },
+        "LED2": {
+            "status": "on",
+            "red": 255,
+            "green": 16,
+            "blue": 255
+        }
+    }
+}
