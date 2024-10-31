@@ -18,9 +18,6 @@ void setupLEDs() {
     pinMode(redPin2, OUTPUT);
     pinMode(greenPin2, OUTPUT);
     pinMode(bluePin2, OUTPUT);
-
-    turnOffLED(1); // Start LED 1 off
-    turnOffLED(2); // Start LED 2 off
 }
 
 // Sets the color for a specific LED based on the ledNumber (1 or 2)
